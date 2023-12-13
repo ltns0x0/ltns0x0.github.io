@@ -20,6 +20,12 @@ html, body{
     min-width: 50%;
 }
 
+.contacts_btn_tap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 50%;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -37,6 +43,35 @@ a{
 
 
 .btn_red_l{
+    background-color: transparent;
+    color:white;
+    border: 3px solid #B22222;
+}
+
+.btn_red_l:hover{
     background-color: #B22222;
     color:white;
+}
+
+.btn_taplink_link{
+    background-color: transparent;
+    color:white;
+    border: 3px solid #1E90FF;
+}
+
+.btn_taplink_link:hover{
+    background-color: #1E90FF;
+    color:white;
+}
+
+.btn-primary{
+    background-color: transparent;
+    color:white;
+    border: 3px solid #0d6efd;
+}
+
+.btn-success{
+    background-color: transparent;
+    color:white;
+    border: 3px solid #198754;
 }
